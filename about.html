@@ -18,9 +18,6 @@
 <!-- font-awesome icons -->
 <link href="css/font-awesome.css" rel="stylesheet"> 
 <!-- //font-awesome icons -->
-<!-- gallery -->
-<link href='css/simplelightbox.min.css' rel='stylesheet' type='text/css'>
-<!-- //gallery -->
 <!-- font -->
 <link href='//fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
@@ -28,8 +25,9 @@
 <script src="js/jquery-1.11.1.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <!-- parallax -->
-<script src="js/SmoothScroll.min.js"></script>
-<!-- //parallax -->
+	<script src="js/SmoothScroll.min.js"></script>
+	<script src="js/jarallax.js"></script>
+	<!-- //parallax -->
 </head>
 <body>
 	<!-- banner -->
@@ -68,9 +66,9 @@
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav">
 								<li><a  href="index.html">Inicio</a></li>
-								<li><a  href="about.html">Nosotros</a></li>
+								<li><a  class="active" href="about.html">Nosotros</a></li>
 							<li class="dropdown">
-								<a class="dropdown-toggle active" data-toggle="dropdown" href="#">SERVICIOS</a>
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#">SERVICIOS</a>
 
 							<ul class="dropdown-menu" role="menu">
 							<li><a href="paquetesturisticos.html">Paquetes turisticos</a></li>
@@ -82,7 +80,7 @@
 								</li>
 								<li><a href="contact.html">Contacto</a></li>
 								<div class="clearfix"> </div>
-							</ul>		
+							</ul>	
 						</div>	
 					</nav>		
 				</div>
@@ -95,127 +93,117 @@
 	<div class="a-grid">
 		<div class="container">
 			<div class="w3l-about-heading">
-				<h2>Sitios a Visitar</h2>
-				<p>Conoce los sitios mas visitados de Nicaragua y ofrecidos en paquetes turisticos por GREKS TRAVELS.</p>
+				<h2>Sobre Nosotros</h2>
+				<p>Conoce un poco más sobre la agencia GREKS TRAVELS .</p>
 			</div>
-			<div class="gallery">	
-				<div class="gallery-bg">
-					<div class="gallery-bg-text effect-2">
-						<a href="images/g1.jpg" class="big"><img src="images/g1.jpg" alt="" title="Maecenas aliquam nec arcu at efficitur. Praesent cursus aliquam erat a commodo." /></a>
-					</div>
+			<div class="agileits-a-about-grids">
+				<div class="col-md-5 agileits-a-about-left">
+					<img src="images/a1.jpg" alt="" />
 				</div>
-				<div class="gallery-small gallery-middle">
-					<div class="gallery-small-text effect-3">
-						<a href="images/g2.jpg"><img src="images/g2.jpg" alt="" title="Donec dictum nisi sit amet ex volutpat interdum."/></a>
-					</div>
+				<div class="col-md-7 agileits-a-about-right">
+					<h3>¿Quiénes somos?</h3>
+					<h4>Somos una empresa técnicamente responsable y dinámica que oferta servicios turísticos, tours personalizados, transporte privado o compartido a todos los destinos nicaragüenses, con un alto estándar de calidad y seguridad ideal para satisfacer tus expectativas a través de asistencia requerida y personalizada para ti. </h4>
+					<p>En Greks Travels nos damos a la tarea de conocer a nuestros clientes, comprender y proveer lo que realmente necesitan, conocer su perfil y sus preferencias, para así diseñar ofertas personalizadas, únicas y atractivas a la demanda de nuestros clientes.
+						<span>Nuestro compromiso es brindar un gran servicio a turistas Nacionales y Extranjeros a precio cómodo, para garantizarte plena satisfacción y facilitar tu viaje a nuestra querida Nicaragua con: Precios Accesibles, Unidades de transporte seguras, Personal Responsable, Sevicio en tiempo y forma, Confort y estética.
+						</span>
+					</p>
 				</div>
-				<div class="gallery-small gallery-middle">
-					<div class="gallery-small-text effect-3">
-						<a href="images/g3.jpg"><img src="images/g3.jpg" alt="" title="Ut dignissim ipsum dolor, in scelerisque neque commodo sit amet."/></a>
-					</div>
-				</div>
-				<div class="gallery-small gallery-middle">
-					<div class="gallery-small-text effect-3">
-						<a href="images/g4.jpg"><img src="images/g4.jpg" alt="" title="Nulla molestie nulla et dolor commodo pharetra."/></a>
-					</div>
-				</div>
-				<div class="clearfix"></div>
-				
-				<div class="gallery-small gallery-middle">
-					<div class="gallery-small-text effect-3">
-						<a href="images/g5.jpg"><img src="images/g5.jpg" alt="" title="Maecenas aliquam nec arcu at efficitur. Praesent cursus aliquam erat a commodo."/></a>
-					</div>
-				</div>
-				<div class="gallery-bg">
-					<div class="gallery-bg-text effect-2">
-						<a href="images/g7.jpg" class="big"><img src="images/g7.jpg" alt="" title="Maecenas aliquam nec arcu at efficitur. Praesent cursus aliquam erat a commodo." /></a>
-					</div>
-				</div>
-				<div class="gallery-small gallery-middle">
-					<div class="gallery-small-text effect-3">
-						<a href="images/g6.jpg"><img src="images/g6.jpg" alt="" title="Maecenas aliquam nec arcu at efficitur."/></a>
-					</div>
-				</div>
-				<div class="gallery-small gallery-middle">
-					<div class="gallery-small-text effect-3">
-						<a href="images/g8.jpg"><img src="images/g8.jpg" alt="" title="Nulla molestie nulla et dolor commodo pharetra."/></a>
-					</div>
-				</div>
-				<div class="clearfix"></div>
-				
-				<div class="gallery-bg">
-					<div class="gallery-bg-text effect-2">
-						<a href="images/g9.jpg" class="big"><img src="images/g9.jpg" alt="" title="Maecenas aliquam nec arcu at efficitur. Praesent cursus aliquam erat a commodo." /></a>
-					</div>
-				</div>
-				<div class="gallery-small gallery-middle">
-					<div class="gallery-small-text effect-3">
-						<a href="images/g2.jpg"><img src="images/g2.jpg" alt="" title="Maecenas aliquam nec arcu at efficitur. Praesent cursus aliquam erat a commodo."/></a>
-					</div>
-				</div>
-				<div class="gallery-small gallery-middle">
-					<div class="gallery-small-text effect-3">
-						<a href="images/g5.jpg"><img src="images/g5.jpg" alt="" title="Maecenas aliquam nec arcu at efficitur."/></a>
-					</div>
-				</div>
-				<div class="gallery-small gallery-middle">
-					<div class="gallery-small-text effect-3">
-						<a href="images/g6.jpg"><img src="images/g6.jpg" alt="" title="Nulla molestie nulla et dolor commodo pharetra."/></a>
-					</div>
-				</div>
-				<div class="clearfix"></div>
-				
+				<div class="clearfix"> </div>
 			</div>
-			<script type="text/javascript" src="js/simple-lightbox.js"></script>
-			<script>
-				$(function(){
-					var $gallery = $('.gallery a').simpleLightbox();
-					
-					$gallery.on('show.simplelightbox', function(){
-						console.log('Requested for showing');
-					})
-					.on('shown.simplelightbox', function(){
-						console.log('Shown');
-					})
-					.on('close.simplelightbox', function(){
-						console.log('Requested for closing');
-					})
-					.on('closed.simplelightbox', function(){
-						console.log('Closed');
-					})
-					.on('change.simplelightbox', function(){
-						console.log('Requested for change');
-					})
-					.on('next.simplelightbox', function(){
-						console.log('Requested for next');
-					})
-					.on('prev.simplelightbox', function(){
-						console.log('Requested for prev');
-					})
-					.on('nextImageLoaded.simplelightbox', function(){
-						console.log('Next image loaded');
-					})
-					.on('prevImageLoaded.simplelightbox', function(){
-						console.log('Prev image loaded');
-					})
-					.on('changed.simplelightbox', function(){
-						console.log('Image changed');
-					})
-					.on('nextDone.simplelightbox', function(){
-						console.log('Image changed to next');
-					})
-					.on('prevDone.simplelightbox', function(){
-						console.log('Image changed to prev');
-					})
-					.on('error.simplelightbox', function(e){
-						console.log('No image found, go to the next/prev');
-						console.log(e);
-					});
-				});
-			</script>
 		</div>
 	</div>
 	<!-- //a-about -->
+	<!-- different -->
+	<div class="jarallax different">
+		<div class="container">
+			<div class="w3-different-heading">
+				<h3>Los valores que nos caracterizan</h3>
+				
+			</div>
+			<div class="w3agile-different-info">
+				<p>Trabajamos de la mano con nuestro equipo de trabajo a través de la creación y práctica óptima de valores fundamentales para el desarrollo de nuestra empresa, estimando el pleno goce de la estadía en nuestra exuberante y magnifica Nación por parte de nuestros clientes, mediante valores tales como: Responsabilidad, Servicio, Dinamismo, Compromiso, Lealtad y Trabajo en equipo</p>
+				
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+        /* init Jarallax */
+        $('.jarallax').jarallax({
+            speed: 0.5,
+            imgWidth: 1366,
+            imgHeight: 768
+        })
+    </script>
+	<!-- //different -->
+	<!-- team -->
+	<div class="team">
+		<div class="container">
+			<div class="agileinfo-team-heading">
+				<h3>Nuestro Equipo</h3>
+				<p>Conoce al personal de GREKS TRAVELS.</p>
+			</div>
+			<div class="team-grids">
+				<div class="col-md-3 agileinfo-team-grid">
+					<img src="images/t1.jpg" alt="" />
+					<div class="captn">
+						<h4>Mary Jane</h4>
+						<p>Vestibulum </p>
+						<div class="w3l-social">
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-rss"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 agileinfo-team-grid">
+					<img src="images/t2.jpg" alt="" />
+					<div class="captn">
+						<h4>Peter Parker</h4>
+						<p>Aliquam non</p>
+						<div class="w3l-social">
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-rss"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 agileinfo-team-grid">
+					<img src="images/t3.jpg" alt="" />
+					<div class="captn">
+						<h4>Johan Botha</h4>
+						<p>Nulla molestie</p>
+						<div class="w3l-social">
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-rss"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 agileinfo-team-grid">
+					<img src="images/t4.jpg" alt="" />
+					<div class="captn">
+						<h4>Steven Wilson</h4>
+						<p>Quisque vitae</p>
+						<div class="w3l-social">
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-rss"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //team -->
 	<!-- footer -->
 	<div class="footer">
 		<div class="container">
