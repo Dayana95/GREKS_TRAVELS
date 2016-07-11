@@ -2551,7 +2551,52 @@ button.btn1:hover{
     color: red !important;
 }
 
+.team-grids{
+    display: none;
+}
 
 .results{
     border:none;
+}
+
+.down{
+    padding-bottom: 30px;
+}
+
+.shuttle{
+    text-align: center;
+    border: 4px solid #fff;
+    color: #fff;
+}
+
+.shuttle h4{
+        font-family: 'Pacifico', cursive;
+        font-weight: bold;
+
+}
+
+.shuttle_azul{
+    background: #0064f0;
+}
+.shuttle_naranja{
+    background: #fd5c63;
+}
+
+.shuttle_cielo{
+    background: #337ab7;
+}
+.shuttle_rojo{
+    background: #a94442;
+}
+
+.shuttle_verde{
+    background: #3c763d;
+}
+
+.shuttle_amarillo{
+    background: #fdc000;
+}
+
+.hidden-own{
+    visibility: hidden;
 }
